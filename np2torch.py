@@ -19,3 +19,8 @@ tensor_ = torch.tensor(arr)
 print(tensor_)
 arr[1] = 1000
 print(tensor_, x)
+
+# seed
+torch.manual_seed(42)
+print(torch.rand(2, 3))
+print(torch.rand(2, 3))
